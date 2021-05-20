@@ -13,6 +13,10 @@
 		0CD7245226568BBD006308BC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CD7245026568BBD006308BC /* Main.storyboard */; };
 		0CD7245426568BBD006308BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0CD7245326568BBD006308BC /* Assets.xcassets */; };
 		0CD7245726568BBD006308BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CD7245526568BBD006308BC /* LaunchScreen.storyboard */; };
+		0CD7245F2656C15C006308BC /* TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CD7245E2656C15C006308BC /* TableView.swift */; };
+		0CD724612656C2EE006308BC /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CD724602656C2EE006308BC /* TableViewCell.swift */; };
+		0CD724632656CE8C006308BC /* ItemLeroy.csv in Resources */ = {isa = PBXBuildFile; fileRef = 0CD724622656CE8C006308BC /* ItemLeroy.csv */; };
+		0CD724652656D3B9006308BC /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CD724642656D3B9006308BC /* Data.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		0CD7245326568BBD006308BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0CD7245626568BBD006308BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0CD7245826568BBD006308BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0CD7245E2656C15C006308BC /* TableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableView.swift; sourceTree = "<group>"; };
+		0CD724602656C2EE006308BC /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		0CD724622656CE8C006308BC /* ItemLeroy.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ItemLeroy.csv; sourceTree = "<group>"; };
+		0CD724642656D3B9006308BC /* Data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +64,14 @@
 		0CD7244926568BBD006308BC /* MultiThreading */ = {
 			isa = PBXGroup;
 			children = (
+				0CD724642656D3B9006308BC /* Data.swift */,
+				0CD724622656CE8C006308BC /* ItemLeroy.csv */,
 				0CD7244A26568BBD006308BC /* AppDelegate.swift */,
 				0CD7244C26568BBD006308BC /* SceneDelegate.swift */,
 				0CD7244E26568BBD006308BC /* ViewController.swift */,
+				0CD7245E2656C15C006308BC /* TableView.swift */,
 				0CD7245026568BBD006308BC /* Main.storyboard */,
+				0CD724602656C2EE006308BC /* TableViewCell.swift */,
 				0CD7245326568BBD006308BC /* Assets.xcassets */,
 				0CD7245526568BBD006308BC /* LaunchScreen.storyboard */,
 				0CD7245826568BBD006308BC /* Info.plist */,
@@ -125,6 +137,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0CD7245726568BBD006308BC /* LaunchScreen.storyboard in Resources */,
+				0CD724632656CE8C006308BC /* ItemLeroy.csv in Resources */,
 				0CD7245426568BBD006308BC /* Assets.xcassets in Resources */,
 				0CD7245226568BBD006308BC /* Main.storyboard in Resources */,
 			);
@@ -137,7 +150,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0CD724612656C2EE006308BC /* TableViewCell.swift in Sources */,
+				0CD724652656D3B9006308BC /* Data.swift in Sources */,
 				0CD7244F26568BBD006308BC /* ViewController.swift in Sources */,
+				0CD7245F2656C15C006308BC /* TableView.swift in Sources */,
 				0CD7244B26568BBD006308BC /* AppDelegate.swift in Sources */,
 				0CD7244D26568BBD006308BC /* SceneDelegate.swift in Sources */,
 			);
@@ -289,6 +305,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = T65E3WF6EP;
 				INFOPLIST_FILE = MultiThreading/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -308,6 +325,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = T65E3WF6EP;
 				INFOPLIST_FILE = MultiThreading/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
