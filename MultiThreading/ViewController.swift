@@ -21,12 +21,13 @@ class ViewController: UIViewController {
     
   override func viewDidLoad() {
     super.viewDidLoad()
+    let searchCtrl = UISearchController(searchResultsController: nil)
+    navigationItem.searchController = searchCtrl
     
-    //print(DataImgSet.shared.imageStr)
-//    tableView.delegate = self
-//    tableView.dataSource = self
+    //print(navigationItem.title)
+    //print(navigationController)
     
-    imageSet.forEach { print($0) }
+    //imageSet.forEach { print($0) }
     
   }
 
